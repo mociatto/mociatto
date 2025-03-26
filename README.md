@@ -1,9 +1,9 @@
 # 👋 Hi, I'm Mostafa Anoosha
 
-🎓 **M.Sc. by Research in Computer Science | University of Hull, UK**  
-⚡️ **Electrical Engineer | Federated Learning & Edge AI Researcher**  
+⚡️ **Electrical Engineer** | **Federated Learning & Edge AI Researcher**  
+🎓 M.Sc. by Research Student in Computer Science  
 📍 Kingston upon Hull, UK  
-📫 [Email me](mailto:mostafa.anoosha@gmail.com)  •  [LinkedIn](https://www.linkedin.com/in/mostafa-anoosha/)
+✉️ [Email me](mailto:mostafa.anoosha@gmail.com) • [LinkedIn](https://www.linkedin.com/in/mostafa-anoosha/)
 
 ---
 
