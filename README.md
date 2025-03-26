@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Mostafa Anoosha
+# 👋 Hi, I'm Mostafa
 
 ⚡️ **Electrical Engineer** | **Federated Learning & Edge AI Researcher**  
 🎓 M.Sc. by Research Student in Computer Science  
