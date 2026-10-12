@@ -1,0 +1,124 @@
+<!-- ==========================================
+     PRIMARY CONFIGURATION BLOCK
+     Change values here to update everywhere:
+     ========================================== -->
+<style>
+  :root {
+    --primary-font: Helvetica, Arial, sans-serif;
+    --accent-color: #ef233c; /* Accent color (Name, Badge, IRIS) */
+    --text-color: #8d99ae;   /* Main text color (Subtitles, description) */
+  }
+
+  /* Global typography & palette classes */
+  .sig-font { 
+    font-family: var(--primary-font, 'Segoe UI', Helvetica, Arial, sans-serif) !important; 
+  }
+  .sig-accent { 
+    color: var(--accent-color, #ef233c) !important; 
+  }
+  .sig-bg-accent { 
+    background-color: var(--accent-color, #ef233c) !important; 
+  }
+  .sig-text { 
+    color: var(--text-color, #8d99ae) !important; 
+  }
+</style>
+
+<!-- ==========================================
+     EMAIL SIGNATURE TABLE
+     ========================================== -->
+<table cellpadding="0" cellspacing="0" border="0" class="sig-font" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; line-height: 1.35; border-collapse: collapse;">
+  <tr>
+    <!-- Profile Picture Column -->
+    <td valign="middle" style="padding-right: 18px;">
+      <img src="https://cdn.jsdelivr.net/gh/mociatto/mociatto@main/email-signature/profile-pic-round-corner.png" 
+           alt="Mostafa Anoosha" 
+           width="95" 
+           height="95" 
+           style="display: block; width: 95px; height: 95px; border-radius: 12px; object-fit: cover;" />
+    </td>
+
+    <!-- Details Column -->
+    <td valign="middle">
+      <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+        
+        <!-- Row 1: Name & Badge -->
+        <tr>
+          <td style="padding-bottom: 4px;">
+            <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+              <tr>
+                <td valign="middle">
+                  <!-- Name (Font size defined directly) -->
+                  <span class="sig-font sig-accent" style="font-size: 16px; font-weight: 800; letter-spacing: 0px; text-transform: uppercase;">
+                    MOSTAFA ANOOSHA
+                  </span>
+                </td>
+                <td valign="middle" style="padding-left: 14px;">
+                  <!-- Badge (Font size defined directly) -->
+                  <span class="sig-font sig-bg-accent" style="font-size: 11px; font-weight: 700; color: #ffffff !important; padding: 4px 10px; border-radius: 5px; text-transform: uppercase; display: inline-block;">
+                    KTP ASSOCIATE
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Row 2: Institutions (Font size defined directly) -->
+        <tr>
+          <td style="padding-bottom: 3px;">
+            <span class="sig-font sig-text" style="font-size: 12px; font-weight: 500;">
+              University of Hull <span style="color: #9e9e9e; padding: 0 4px;">|</span> Veracity Healthcare
+            </span>
+          </td>
+        </tr>
+
+        <!-- Row 3: Project Title (Font size defined directly) -->
+        <tr>
+          <td style="padding-bottom: 10px;">
+            <span class="sig-font" style="font-size: 12px;">
+              <strong class="sig-accent" style="font-weight: 800;">IRIS</strong>
+              <span style="color: #9e9e9e; padding: 0 4px;">|</span>
+              <span class="sig-text" style="font-weight: 500;">Intelligent Reporting &amp; Investigation System for DomCare</span>
+            </span>
+          </td>
+        </tr>
+
+        <!-- Row 4: Clickable Social Icons -->
+        <tr>
+          <td>
+            <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+              <tr>
+                <!-- GitHub -->
+                <td style="padding-right: 8px;">
+                  <a href="https://github.com/mociatto" target="_blank" style="text-decoration: none;">
+                    <img src="https://cdn.jsdelivr.net/gh/mociatto/mociatto@main/email-signature/icon-github.png" alt="GitHub" width="20" height="20" style="display: block; border: 0; width: 20px; height: 20px;" />
+                  </a>
+                </td>
+                <!-- LinkedIn -->
+                <td style="padding-right: 8px;">
+                  <a href="YOUR_LINKEDIN_PROFILE_URLwww.linkedin.com/in/mostafa-anoosha" target="_blank" style="text-decoration: none;">
+                    <img src="https://cdn.jsdelivr.net/gh/mociatto/mociatto@main/email-signature/icon-linkedin.png" alt="LinkedIn" width="20" height="20" style="display: block; border: 0; width: 20px; height: 20px;" />
+                  </a>
+                </td>
+                <!-- Website / Portfolio -->
+                <td style="padding-right: 8px;">
+                  <a href="https://www.hull.ac.uk/" target="_blank" style="text-decoration: none;">
+                    <img src="https://cdn.jsdelivr.net/gh/mociatto/mociatto@main/email-signature/icon-website.png" alt="Website" width="20" height="20" style="display: block; border: 0; width: 20px; height: 20px;" />
+                  </a>
+                </td>
+                <!-- Location -->
+                <td>
+                  <a href="https://maps.app.goo.gl/YubzobzkAsLdp2STA" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="https://cdn.jsdelivr.net/gh/mociatto/mociatto@main/email-signature/icon-location.png" alt="Location" width="20" height="20" style="display: block; border: 0; width: 20px; height: 20px;" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
